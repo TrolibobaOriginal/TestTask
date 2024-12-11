@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+:root {
+    --c-blue: #3c9ec9;
+  }
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(60,158,201);
+    background: linear-gradient(61deg, rgba(60,158,201,1) 18%, rgba(98,159,194,1) 45%, rgba(168,195,215,1) 79%);
+}
+
+.logo{
+    padding: 15px;
+}
+
+.logo>a{
+    padding: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 48px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.auth_btn{
+    margin: auto 20px;
+}
+
+.invisible{
+    display: none;
+}
+
+.form_container{
+    display: flex;
+    padding: 20px;
+    width: 650px;
+    margin: 100px auto 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 11px #0000006b;
+    box-sizing: border-box;
+}
+
+.notice_block{
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(61deg, rgb(201 60 60) 18%, rgb(194 98 98) 45%, rgb(225 155 155) 79%);
+    color: white;
+}
+
+.form_description{
+    padding: 25px 5px 10px 25px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: var(--c-blue);
+}
+
+.form>input{
+    margin: 10px 0px;
+    border-radius: 5px;
+    background: #d5d5d5;
+    border: 0;
+    font-size: 24px;
+    padding: 5px 10px;
+    font-weight: 300;
+    transition: all 0.2s ease-out;
+}
+
+.form>input:focus-visible{
+    outline: 0;
+    box-shadow: 0 0 5px 1px var(--c-blue);
+}
+
+.from_btn {
+    margin: 20px 0 0 0;
+    width: -webkit-fill-available;;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    border: 0;
+    background-image: linear-gradient(to right, var(--c-blue) 0%, #0B63F6 51%, var(--c-blue) 100%);
+}
+
+.from_btn:hover {
+     background-position: right center;
+}
+
+.from_btn:focus-visible{
+    outline: 0;
+}
+
