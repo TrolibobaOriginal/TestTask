@@ -63,7 +63,7 @@
 	        	  <input type="email" id="email" name="email" required><br>
 	        	  <label for="phone">Телефон</label><br>
 	        	  <input type="tel" id="phone" name="phone" required><br>
-	        	  <label for="price">Цена</label><br>
+	        	  <label for="number">Цена</label><br>
 	        	  <input type="text" id="price" name="price" required><br>
 				  <input type="checkbox" id="time_check" name="time_check" class="invisible" />
 				  <input type="text" id="token" name="token" class="invisible"  value="">
